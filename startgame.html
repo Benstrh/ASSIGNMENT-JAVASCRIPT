@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Wordie!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/word.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <img src="img/FreeVector-Soccer-Field-Vector svg.svg" alt="">
+    <div class="container">
+        <div class="startarea">
+            <header><h2>Welcome to Football Wordie!</h2></header>
+
+            <p class="desc">Word scramble game about football! Do you wanna play?</p>
+
+            <div class="play">
+                <button class="play-button" onclick="gameStart()"><p style="color: #e5e5e5;">PLAY!</p></button>
+            </div>
+        </div>
+    </div>
+<script>
+    function gameStart (){
+        let playerName = prompt("Masukkan namamu!");
+        let playerGo = ""
+        if(playerGo = playerName) {
+            alert("Hi " + playerName + " sudah siap main?"),
+            window.location.assign("index.html");
+        } else {
+            alert("Kamu belom masukkin namamu");
+        }
+    }        
+</script>    
+</body>
+</html>

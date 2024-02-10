@@ -1,0 +1,168 @@
+* {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #773ec3;
+    min-height: 100vh;
+    
+}
+
+body img {
+    position: fixed;
+    z-index: -1;
+    opacity: 0.25;
+    
+}
+
+.container {
+    width: 600px;
+    border-radius: 10px;
+    background: #66ad79;
+    box-shadow: 5px 5px 20px #280f2a;
+}
+
+
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #ffd452;
+    padding: 15px 22px;
+    align-items: baseline;
+}
+
+.container .header h2 {
+    font-size: 20px;
+    font-weight: 500px;    
+    color: #e5e5e5;
+}
+
+.container .header .time {
+    font-size: 13px;
+}
+
+.container .quiz-content {
+    margin: 25px 20px 35px;
+}
+
+.quiz-content .word-container {
+    border-radius: 5px;
+    background: #7fce94;
+    
+}
+
+.quiz-content .word {
+    padding: 0 10px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    margin-right: -20px;
+}
+
+.quiz-content .details {
+    margin: 10px;
+    font-size: 13px;
+}
+
+.quiz-content input {
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 20px;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.quiz-content .buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 0;
+    width: calc(100% / 2 - 10px);
+    height: 60px;
+    
+}
+
+.buttons .refresh-word {
+    background: #b2c6e1;
+}
+
+.buttons .refresh-word:hover {
+    background: #9eb4d4;
+}
+
+.buttons .shoot-word {
+    background: #ffba1c;
+}
+
+.buttons .shoot-word:hover {
+    background: #eead3d;
+}
+
+/* Styling Start Game */
+.startarea{
+    height: 250px;
+    
+}
+.startarea header {
+    width: 100%;
+    border-bottom: 3px solid #ffd452;
+    
+}
+
+.startarea header h2 {
+    font-size: 20px;
+    font-weight: 500px;    
+    color: #e5e5e5;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.startarea .desc {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.startarea button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px 0;
+    width: 50%;
+    box-shadow: 5px 5px 8px #280f2a;
+    
+}
+
+.play .play-button {
+    background: #537e80;  
+}
+
+.play .play-button:hover {
+    background: #407072;
+}
